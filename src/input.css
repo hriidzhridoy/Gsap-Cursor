@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#image{
+    height:15vw;
+    width: 30vw;
+    background-color: #fafafa;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

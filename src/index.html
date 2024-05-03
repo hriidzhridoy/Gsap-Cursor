@@ -1,19 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold bg-red-300  text-center">
-    Move your cursor
-  </h1>
-<div id="main" class="bg-black text-white h-screen w-[100%]"> 
-  <div class="bg-red-300 h-[50px] w-[50px]  mx-2 fixed" id="cursor"></div>
-
-</div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <h1 class="text-3xl font-bold bg-red-300 text-center">Move your cursor</h1>
+    <div
+      class="bg-red-300 h-[50px] w-[50px] mx-2 fixed rounded-full"
+      id="cursor"
+    ></div>
+    <div id="main" class="bg-black text-white h-screen w-[100%]">
+      <div id="image" class="object-cover">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1674939148088-d71acc1541ff?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
